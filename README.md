@@ -10,7 +10,8 @@ This repository presents my solution to the inverse kinematics problem for a sim
 
 I devised a comprehensive strategy based on the Denavit-Hartenberg (DH) parameters and coordinate transformations. The DH parameters were obtained from the Panda arm's geometric properties. I calculated the transformation matrices between consecutive joints using DH parameters and formulated the end effector's transformation matrix relative to the base frame.
 
-![image](https://github.com/Saibernard/Franka-Emika-Panda-Robot-Arm-Inverse-Kinematics-Solver-Simulation-and-Hardware-Implementation/assets/112599512/4657252e-8485-45e8-90dd-1b11a2048de5)
+![image](https://github.com/Saibernard/Franka-Emika-Panda-Robot-Arm-Inverse-Kinematics-Solver-Simulation-and-Hardware-Implementation/assets/112599512/a57673a3-51f5-46ed-84aa-083a3a9c3d19)
+
 
 ![image](https://github.com/Saibernard/Franka-Emika-Panda-Robot-Arm-Inverse-Kinematics-Solver-Simulation-and-Hardware-Implementation/assets/112599512/052b399b-365a-47f0-84b7-c673d3be000c)
 
