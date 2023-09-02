@@ -12,7 +12,8 @@ I devised a comprehensive strategy based on the Denavit-Hartenberg (DH) paramete
 
 ![image](https://github.com/Saibernard/Franka-Emika-Panda-Robot-Arm-Inverse-Kinematics-Solver-Simulation-and-Hardware-Implementation/assets/112599512/4657252e-8485-45e8-90dd-1b11a2048de5)
 
-![image](https://github.com/Saibernard/Franka-Emika-Panda-Robot-Arm-Inverse-Kinematics-Solver-Simulation-and-Hardware-Implementation/assets/112599512/e4c0412c-fdf7-4ec1-94ff-f66d88bd9a55)
+![image](https://github.com/Saibernard/Franka-Emika-Panda-Robot-Arm-Inverse-Kinematics-Solver-Simulation-and-Hardware-Implementation/assets/112599512/052b399b-365a-47f0-84b7-c673d3be000c)
+
 
 ### Joint geometric analysis:
 
