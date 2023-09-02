@@ -10,6 +10,21 @@ This repository presents my solution to the inverse kinematics problem for a sim
 
 I devised a comprehensive strategy based on the Denavit-Hartenberg (DH) parameters and coordinate transformations. The DH parameters were obtained from the Panda arm's geometric properties. I calculated the transformation matrices between consecutive joints using DH parameters and formulated the end effector's transformation matrix relative to the base frame.
 
+![image](https://github.com/Saibernard/Franka-Emika-Panda-Robot-Arm-Inverse-Kinematics-Solver-Simulation-and-Hardware-Implementation/assets/112599512/4657252e-8485-45e8-90dd-1b11a2048de5)
+
+![image](https://github.com/Saibernard/Franka-Emika-Panda-Robot-Arm-Inverse-Kinematics-Solver-Simulation-and-Hardware-Implementation/assets/112599512/e4c0412c-fdf7-4ec1-94ff-f66d88bd9a55)
+
+### Joint geometric analysis:
+
+#### Joint 7: 
+
+![image](https://github.com/Saibernard/Franka-Emika-Panda-Robot-Arm-Inverse-Kinematics-Solver-Simulation-and-Hardware-Implementation/assets/112599512/621f5e3c-de2e-44ff-94b2-c2277ecd59da)
+
+#### Joint 5,6,2 (consideirng planar representation) :
+
+![image](https://github.com/Saibernard/Franka-Emika-Panda-Robot-Arm-Inverse-Kinematics-Solver-Simulation-and-Hardware-Implementation/assets/112599512/660e6abe-3359-4339-a577-6f1065ff9630)
+
+
 ## Evaluation
 
 The implementation underwent rigorous testing in both simulation and hardware. In simulation, I validated the joint angles output for various end effector poses against expected results. Hardware experiments were conducted, focusing on reachable workspaces and feasible orientations. Comparing simulated and hardware results provided insights into accuracy and limitations.
@@ -17,6 +32,11 @@ The implementation underwent rigorous testing in both simulation and hardware. I
 ## Analysis
 
 The analysis reveals notable consistencies between simulation and hardware outcomes. Certain orientations within the reachable workspace couldn't be achieved due to mechanical constraints. Deciding among multiple solutions for the IK problem was tackled, considering factors like joint angles' order and physical feasibility.
+
+### End effector joint angle constraints:
+
+![image](https://github.com/Saibernard/Franka-Emika-Panda-Robot-Arm-Inverse-Kinematics-Solver-Simulation-and-Hardware-Implementation/assets/112599512/031dfa0d-be7e-4d34-9289-dbcd11e16834)
+
 
 ## Contributions
 
